@@ -1,0 +1,19 @@
+cristi00245@cristi:~/Desktop/Python Tasks/task2$ python3 -m unittest unit_testing_and_tdd_logic.py
+Subtotal: 6500
+Total Tax: 1235.0
+Grand Total: 7735.0
+[{'description': 'Item1', 'quantity': 1, 'unit_price': 0.1, 'tax_rate': 0.07}, {'description': 'Item2', 'quantity': 2, 'unit_price': 0.2, 'tax_rate': 0.05}]
+F...Invalid tax: []
+.
+======================================================================
+FAIL: test_floating_point_rounding (unit_testing_and_tdd_logic.TestInvoiceCalculator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/cristi00245/Desktop/Python Tasks/task2/unit_testing_and_tdd_logic.py", line 65, in test_floating_point_rounding
+    self.assertEqual(calc.total_tax(), 0.027)
+AssertionError: 0.027000000000000003 != 0.027
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)

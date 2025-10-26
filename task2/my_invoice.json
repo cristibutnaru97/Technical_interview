@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "description": "Laptop",
+      "quantity": 2,
+      "unit_price": 3000,
+      "tax_rate": 0.19
+    },
+    {
+      "description": "Mouse",
+      "quantity": 5,
+      "unit_price": 100,
+      "tax_rate": 0.19
+    }
+  ],
+  "subtotal": 6500,
+  "total_tax": 1235.0,
+  "grand_total": 7735.0
+}
