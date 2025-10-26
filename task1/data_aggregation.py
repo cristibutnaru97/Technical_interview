@@ -6,10 +6,6 @@ import json
 def load_data(csv_path: str) -> pd.DataFrame:
     """
     Load the CSV file and handle missing or invalid data interactively.
-    
-    - Nu șterge rândurile cu date lipsă.
-    - Afișează rândurile incomplete.
-    - Permite completarea manuală sau ștergerea lor.
     """
     try:
         df = pd.read_csv(csv_path)
